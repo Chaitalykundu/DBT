@@ -15,12 +15,10 @@
 > cd dbt_project
 7. check the path
 > pwd
-8. 
-> dbt debug
 
-9. go to dbt_project.yml file. change - profile: "postgres"
-10. open pgAdmin4 > go to protgreSQL 15 select properties. check if all the things are ok or not
-11. file explore > C drive > Users > chaitaly_kundu > .dbt > open profiles.yml in vs code. change the following things
+8. go to dbt_project.yml file. change - profile: "postgres"
+9. open pgAdmin4 > go to protgreSQL 15 select properties. check if all the things are ok or not
+10. file explore > C drive > Users > chaitaly_kundu > .dbt > open profiles.yml in vs code. change the following things
  
  ```
  postgres:
@@ -38,3 +36,6 @@
       threads: 1
       connect_timeout: 10
 ```
+
+11. check all versions and configurations
+> dbt debug
